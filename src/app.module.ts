@@ -3,5 +3,6 @@ import { TasksModule } from './modules/tasks/tasks.module';
 
 @Module({
   imports: [TasksModule],
+  providers: [],
 })
 export class AppModule {}
